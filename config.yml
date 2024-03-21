@@ -1,0 +1,14 @@
+web3:
+  chainId: 8453
+  rpc: 'https://base-mainnet.g.alchemy.com/v2/oKbf_St7Dk8JtbBujjeXZrlDXf1Kkrq2'
+
+db:
+  dialect: 'mysql'
+  database: 'piggy'
+  host: '127.0.0.1'
+  port: 3306
+  username: 'root'
+  password: 'T3st1234!'
+
+api:
+  port: 9001

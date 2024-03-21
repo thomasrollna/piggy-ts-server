@@ -1,0 +1,51 @@
+{
+  "name": "piggy-server",
+  "version": "0.0.1",
+  "description": "backend for piggy project",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "thomas",
+  "license": "MIT",
+  "devDependencies": {
+    "@openzeppelin/merkle-tree": "^1.0.6",
+    "@types/koa": "^2.13.12",
+    "@types/koa-router": "^7.4.8",
+    "@types/koa-session": "^6.4.5",
+    "@types/koa2-cors": "^2.0.5",
+    "@types/lodash": "^4.14.202",
+    "@types/module-alias": "^2.0.4",
+    "@types/node": "^20.10.1",
+    "@types/validator": "^13.11.7",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@0xsequence/multicall": "^1.4.9",
+    "axios": "^1.6.2",
+    "bignumber.js": "^9.1.2",
+    "ethers": "^5.7.2",
+    "joi": "^17.11.0",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.1",
+    "koa-session": "^6.4.0",
+    "koa2-cors": "^2.0.6",
+    "lodash": "^4.17.21",
+    "module-alias": "^2.2.3",
+    "moment": "^2.29.4",
+    "mysql2": "^3.6.5",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.35.1",
+    "sequelize-typescript": "^2.1.6",
+    "yaml": "^2.3.4"
+  },
+  "_moduleAliases": {
+    "@model": "dist/model",
+    "@service": "dist/service",
+    "@controller": "dist/controller",
+    "@route": "dist/route",
+    "@store": "dist/store",
+    "@lib": "dist/lib"
+  }
+}

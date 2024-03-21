@@ -1,0 +1,4 @@
+apps:
+  - script: './dist/cmd/api.js'
+    name: 'piggy-api'
+    exec_mode: 'fork'
